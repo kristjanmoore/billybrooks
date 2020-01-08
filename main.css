@@ -1,8 +1,12 @@
 
 @font-face {
     font-family: "Athelas-Regular";
-    src: url('resources/Athelas-Regular.ttf'),
-    url('resources/Athelas-Regular.ttf'); /* IE */
+    font-style: "normal";
+    font-display: "swap";
+    unicode-range: U+000-5FF;
+    src: 
+        local('Athelas-Regular'),
+        url('resources/Athelas-Regular.woff2') format('woff2');
 }
 
 * { 
@@ -15,47 +19,55 @@
     width:820px;
 }
 
-#image {
+#header {
+    float: right;
+    text-align: left;
+    width: 250px;
+}
+
+#content {
     float: left;
-    color: #000;
-    font-size: 10px;
+    color: #EEE;
+    width: 520px;
+    font-size: 18px;
     font-weight: 100;
     margin-bottom: 20px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
-#list {
+#sidebar {
     float:right;
-    width:280px;
-    color: #FFF;
-    font-size: 24px;
-    margin-top:10px;
+    width:250px;
+    height:240px;
+    color:#FFF;
+    font-size:24px;
+    line-height:30px;
+    margin-top:0px;
     margin-bottom:30px;
     padding-bottom:30px;
     border-top: solid 1px #DEDEDE;
     border-bottom: solid 1px #DEDEDE;
 }
 
-.mail {
-    
+#mail {
+    font-size: 20px;
 }
 
-.mail:hover {
+#mail:hover {
     text-shadow: 3px 3px #0077BB;
 }
-
 
 h1 {
     color: ghostwhite;
     font-weight: 600;
-    font-size: 230%
+    font-size: 36px;
 }
 
 a {
     color: #FAFAFA;
     text-decoration: none;
     font-style: none; 
-    line-height: 28px;
 }
 
 a:hover {
@@ -63,16 +75,7 @@ a:hover {
     /* font-weight: bold; */
     text-shadow: 2px 2px crimson;
 }
-
-b {
-    color: #FFF;
-    text-decoration: none;
-    font-style: none; 
-    line-height: 28px;
-    opacity: 0;
-    text-align: right;
-}
-    
+ 
 a:hover + .icon {
     opacity: 1;
 }
@@ -89,4 +92,6 @@ a:hover + .icon {
 .selected {
     border-bottom: 1.5px solid #DDD;
 }
+
+
 
