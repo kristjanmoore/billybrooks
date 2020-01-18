@@ -13,16 +13,16 @@
 
 <div id="container">
 
-<!--     <div id="content">
-        <p></p>
-    </div> -->
+    <div id="content">
+        <br>
+    </div>
 
     <div id="header">
-        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a>&nbsp&nbsp←</h1>
+        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a></h1>
     </div>
 
     <div id="content">
-        <p><img src='resources/aldous.jpg' style="width:640px;"></p>
+        <p>email: <a href="mailto:enquiries@billybrooks.co.uk">enquiries@billybrooks.co.uk</a></p>
     </div>
 
     <div id="sidebar">
@@ -50,7 +50,7 @@
         <a href="about">About</a>
         <br>
         <br>
-        <a href="contact">Contact</a>
+        <a href="contact">Contact&nbsp&nbsp←</a>
         <br>
         <br>
     </div>

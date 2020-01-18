@@ -13,16 +13,16 @@
 
 <div id="container">
 
-<!--     <div id="content">
-        <p></p>
-    </div> -->
+    <div id="content">
+        <br>
+    </div>
 
     <div id="header">
-        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a>&nbsp&nbsp←</h1>
+        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a></h1>
     </div>
 
     <div id="content">
-        <p><img src='resources/aldous.jpg' style="width:640px;"></p>
+        <p>Billy didn't tell me nothing about <i>Solstice</i> so I don't know what the hell to put here.</p>
     </div>
 
     <div id="sidebar">
@@ -38,11 +38,11 @@
         </div>
         <br>
         <div class="wrap-collabsible">
-          <input id="film-list" class="toggle" type="checkbox">
+          <input id="film-list" class="toggle" type="checkbox" checked>
           <label for="film-list" class="lbl-toggle">Film</label>
           <div class="collapsible-content">
             <div class="content-inner">
-              <ul><a href="solstice">Solstice (2020)</a></ul>
+              <ul><a href="solstice">Solstice (2020)&nbsp&nbsp←</a></ul>
             </div>
           </div>
         </div>

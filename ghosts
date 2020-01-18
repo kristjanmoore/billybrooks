@@ -13,26 +13,32 @@
 
 <div id="container">
 
-<!--     <div id="content">
-        <p></p>
-    </div> -->
+    <div id="content">
+        <br>
+    </div>
 
     <div id="header">
-        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a>&nbsp&nbsp←</h1>
+        <h1><a href="index.html" style="text-align:'right';">Billy Brooks</a></h1>
     </div>
 
     <div id="content">
-        <p><img src='resources/aldous.jpg' style="width:640px;"></p>
+        <p><i>Ghosts of the Winter Light</i> is a dramatic play about a fractured society and a generation cast adrift.</p>
+        <p>Audiences will enjoy its debut performance at Wembley Stadium on April 1st 2020.</p>
+        <p>Cast:</p>
+        <ul>Bonzo: Ian McKellen</ul>
+        <ul>Nega-Bonzo: Koko the Gorilla</ul>
+        <ul>Bonzo Reborn: Dean Newman</ul>
+        <ul>Boy With Apple 3: Timothy Brooks</ul>
     </div>
 
     <div id="sidebar">
         <br>
         <div class="wrap-collabsible">
-          <input id="theatre-list" class="toggle" type="checkbox">
+          <input id="theatre-list" class="toggle" type="checkbox" checked>
           <label for="theatre-list" class="lbl-toggle">Theatre</label>
           <div class="collapsible-content">
             <div class="content-inner">
-              <ul><a href="ghosts">Ghosts of the Winter Light (2020)</a></ul>
+              <ul><a href="ghosts">Ghosts of the Winter Light (2020)&nbsp&nbsp←</a></ul>
             </div>
           </div>
         </div>
