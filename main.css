@@ -387,7 +387,7 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-    max-height: 2.5rem;
+    max-height: 5rem;
 /*    line-height: 2rem;*/
     transform: translateY(0.25rem);
 }
@@ -406,7 +406,7 @@ input[type='checkbox'] {
     transform: translateY(-0.25rem);
     line-height: 1.25rem;
     overflow: hidden;
-    transition: all 0.8s ease-in-out;
+    transition: max-height 1.5s ease-in-out, transform 1.5s ease-in-out;
 /*    transition: all 0.8s ease-in-out;*/
 }
 
