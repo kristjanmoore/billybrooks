@@ -4,6 +4,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="preload" href="main.css" as="style">
 <link href="main.css" type="text/css" rel="stylesheet">
 <title>Billy Brooks</title>
 </head>
@@ -12,55 +13,61 @@
 
 <div id="container">
 
-<!--     <div id="content">
-        <p></p>
-    </div> -->
-
-    <div id="header">
-        <h1><a href="index.html" class="selected">Billy Brooks</a></h1>
+    <div id="content-landing">
+        <div class="pictureframe">
+            <img src='resources/aldous.jpg' style="width: 720x;">
+        </div>
     </div>
 
-    <div id="content">
-        <p><img src='resources/aldous.jpg' style="width:640px;"></p>
-    </div>
 
     <div id="sidebar">
-        <br>
-        <div class="wrap-collapsible">
-          <input id="theatre-list" class="toggle" type="checkbox">
-          <label for="theatre-list" class="lbl-toggle">Theatre</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul><a href="ghosts.html">Ghosts of the Winter Light (2020)</a></ul>
-            <div class="content-inner">
-              <ul><a href="ghosts.html"> Moonflower (2020)</a></ul>
-            </div>
-          </div>
+        
+        <div class="header" id="sidebar-header">
+            <a href="index.html" class="selected">Billy Brooks</a>
         </div>
         
-        <br>
-        <div class="wrap-collapsible">
-          <input id="film-list" class="toggle" type="checkbox">
-          <label for="film-list" class="lbl-toggle">Film</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul><a href="solstice.html">Solstice (2020)</a></ul>
+        <div id="sidebar-body">
+            
+            <div class="sidebar-dropdown">
+              <input id="theatre-list" class="toggle" type="checkbox">
+              <label for="theatre-list" class="lbl-toggle">Theatre</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  <ul><a href="ghosts.html">Ghosts of the Winter Light (2020)</a></ul>
+                </div>
+              </div>
             </div>
-          </div>
+
+            <div class="sidebar-dropdown">
+              <input id="film-list" class="toggle" type="checkbox">
+              <label for="film-list" class="lbl-toggle">Film</label>
+              <div class="collapsible-content">
+                <div class="content-inner">
+                  <ul><a href="solstice.html">Solstice (2020)</a></ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="sidebar-item">
+                <a href="about.html">About</a>
+            </div>
+            
+            <div class="sidebar-item">
+                <a href="notes.html" >Notes</a>
+            </div>
+            
+            <div class="sidebar-item">
+                <a href="contact.html">Contact</a>
+            </div>
+            
         </div>
         
-        <br>
-        <a href="about.html">About</a>
-        <br>
-        <a href="notes.html" >Notes</a>
-        <br>
-        <a href="contact.html">Contact</a>
-        <br>
-        <br>
     </div>
 
 </div>
 
 
-</body>
+</body>    
 </html>
+
+<script> </script>
