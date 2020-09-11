@@ -244,6 +244,9 @@ body {
     align-content: start;
     align-self: start;
     
+    position: sticky;
+    top: 2rem;
+  
 /*    padding-right: 1rem;*/
     
     background-color: rgb(var(--sidebar-bg-color));
