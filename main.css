@@ -6,8 +6,7 @@
     
     /*  colours  */
     --text-color: 248, 248, 255; /* ghostwhite */
-    --text-glow-color: 119, 17, 51;
-/*    --text-glow-color: 134, 19, 57;*/
+    --text-glow-color: 134, 19, 57;
     --email-glow-color: 34, 17, 119;
     --border-color: 222, 222, 222;
     --bg-color: 3, 7, 7;
@@ -321,8 +320,7 @@ a {
 }
 
 a:visited {
-    color: rgba(var(--text-color), 0.8);
-/*    color: rgb(var(--text-color));*/
+    color: rgb(var(--text-color));
 }
 
 a:hover {
