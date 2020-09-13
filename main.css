@@ -16,23 +16,13 @@
     --collapsible-arrow-hover-colour: 136, 34, 68;
     
     /*  sizes  */
-    --small-font-size: 1.125rem;
-    --medium-font-size: 1.375rem;
-    --large-font-size: 1.5rem;
-    
-    --small-font-size: 1.0625rem;
-    --medium-font-size: 1.25rem;
-    --large-font-size: 1.375rem;
-    
     --small-font-size: 0.9375rem;
     --medium-font-size: 1.25rem;
     --large-font-size: 1.375rem;
     
     /*  dimensions  */
-    --col1-width: 2fr;
-/*    --col1-width: 2.5fr;*/
+    --col1-width: 2.5fr;
     --col2-width: 1fr;
-/*    --col-gap: 1.5rem;*/
     --col-gap: min(2.5em, 3vw);
 /*    --row1-height: 3.375rem;*/
     --row1-height: auto;
@@ -126,11 +116,9 @@ input {
 body {
     display: block;
     margin: auto;
-    width: min(98vw, 992px);
-/*    width: min(98vw, 1024px);*/
+    width: min(98vw, 1024px);
     height: auto;
     background-color: rgb(var(--bg-color));
-/*    background-color: rgb(var(--text-color));*/
     
     font-family: "Athelas-Regular";
     color: rgba(var(--text-color), 0.8);
@@ -138,6 +126,7 @@ body {
 
 #container {
     margin: auto;
+  
     display: grid;
     grid-template-areas:
         "content  sidebar";
@@ -145,15 +134,14 @@ body {
         var(--col1-width) var(--col2-width);
     column-gap: var(--col-gap);
     
-/*    align-items: start;*/
+    align-items: start;
   
     margin: 2rem;
 }
 
 #content, 
 #sidebar {
-/*    padding: 2rem 8% 2.75rem 8%;*/
-    padding: 2rem 8%;
+    padding: 2rem 8% 2.75rem 8%;
     
     border: outset 8px rgb(var(--text-color));
     
@@ -178,9 +166,6 @@ body {
     
     align-content: start;
     
-/*    padding-left: 3rem;*/
-/*    padding-right: 3rem;*/
-    
     background-color: rgb(var(--bg-color));
     background-color: rgb(var(--text-color));
     color: rgb(var(--bg-color));
@@ -199,7 +184,6 @@ body {
 
 #content-header {
     grid-area: "content-header";
-/*    border-bottom: 1px solid rgb(var(--text-color));*/
     
     margin: 1rem 0 1rem 0;
     
@@ -212,14 +196,13 @@ body {
     
     padding-top: 1rem;
     
-/*    background-color: rgb(var(--bg-color));*/
-    
     font-size: var(--small-font-size);
     font-size: 1em;
 }
 
 #sidebar {
-/*    position: fixed;*/
+    position: sticky;
+  
     grid-area: "sidebar";
     display: grid;
     grid-template-areas:
@@ -234,20 +217,13 @@ body {
     align-content: start;
     align-self: start;
     
-    position: sticky;
     top: 2rem;
-  
-/*    padding-right: 1rem;*/
     
     background-color: rgb(var(--sidebar-bg-color));
-    
     border: outset 8px rgb(var(--text-color));
-/*    border-radius: 2px;*/
-    
     box-shadow: 2px 2px 12px rgb(var(--sidebar-bg-color));
     
     font-size: var(--large-font-size);
-    
 }
 
 #sidebar-header {
@@ -419,11 +395,9 @@ input[type='checkbox'] {
 }
 
 .pictureframe::after {
-    top: 0;
-    
-    display: block;
-    
     position: absolute;
+    display: block;
+    top: 0;
     width: 100%;
     height: 100%;
     
