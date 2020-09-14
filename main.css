@@ -458,11 +458,12 @@ input[type='checkbox'] {
 
 #mail {
     color: rgb(var(--bg-color)); 
-    text-shadow: inherit;
+    transition: text-shadow 0.4s ease-in-out;
 }
 
 #mail:hover {
     text-shadow: 0 0 0.125rem rgb(var(--email-glow-color));
+    transition: text-shadow 0.4s ease-in-out;
 }
 
 
@@ -470,6 +471,7 @@ input[type='checkbox'] {
     transform: translateX(-0.625rem);
     display: inline-block;
     opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 #mail:hover + .icon {
