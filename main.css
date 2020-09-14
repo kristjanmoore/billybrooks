@@ -436,8 +436,8 @@ input[type='checkbox'] {
 @keyframes slideshowing {
   0%    { opacity: 0; filter: blur(4px); }
   5%    { opacity: 1; filter: blur(0px); }
-  8.1%   { opacity: 1; filter: blur(0px)  contrast(1.16) saturate(1.16) brightness(1.1); animation-timing-function: ease-in; }
-  11%   { opacity: 1; filter: blur(0px)  contrast(1.2) saturate(1.22) brightness(1.1); animation-timing-function: ease-out; }
+  8.1%   { opacity: 1; filter: blur(0px)  contrast(1.15) saturate(1.15) brightness(1.1); animation-timing-function: ease-in; }
+  11%   { opacity: 1; filter: blur(0px)  contrast(1.19) saturate(1.2) brightness(1.1); animation-timing-function: ease-out; }
   17.4%   { opacity: 0; filter: blur(15px) contrast(3) saturate(3); ; animation-timing-function: ease-in; }
 }
 
